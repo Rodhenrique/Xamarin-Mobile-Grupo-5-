@@ -15,9 +15,7 @@ namespace Ws_Tower_WebApi.Repositories
             using (WsTowerContext context = new WsTowerContext())
             {
                 Jogador jogador = new Jogador();
-                jogador = context.Jogador.Where(Jg => Jg.Id == Id)
-                    .Include(jg => jg.Selecao)
-                    .FirstOrDefault();
+                jogador = context.Jogador.FirstOrDefault(J => J.Id == Id);
 
                 if (jogador.Posicao == "Tecnico")
                 {

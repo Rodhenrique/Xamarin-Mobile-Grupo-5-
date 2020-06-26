@@ -8,11 +8,15 @@ using Ws_Tower_WebApi.Repositories;
 
 namespace Ws_Tower_WebApi.Controllers
 {
+    [Produces("application/json")]
+    [Route("api/[controller]")]
+    [ApiController]
     public class UsuarioController : ControllerBase
     {
+
         UsuarioRepository repository = new UsuarioRepository();
 
-        //Controller Mostra um jogador pelo nome do jogador
+        //Controller todos os usuários do sistema
         [HttpGet]
         public IActionResult ListarUsuario()
         {

@@ -17,7 +17,6 @@ namespace Ws_Tower_WebApi.Domains
         public int NumeroCamisa { get; set; }
         public byte[] Foto { get; set; }
         public int? SelecaoId { get; set; }
-        public int Idade { get; set; }
 
         public virtual Selecao Selecao { get; set; }
     }

@@ -8,31 +8,51 @@ using Ws_Tower_WebApi.Repositories;
 
 namespace Ws_Tower_WebApi.Controllers
 {
+    [Produces("application/json")]
+    [Route("api/[controller]")]
+    [ApiController]
     public class JogadorController : ControllerBase
     {
         JogadorRepository repository = new JogadorRepository();
         //Controller Mostra um jogador pelo ID
-        [HttpGet]
-        public IActionResult MostraJogador(int id)
+        [HttpGet("{Id}")]
+        public IActionResult MostraJogador(int Id)
         {
-            var Buscar = repository.BuscarJogadorPorId(id);
+            var Buscar = repository.BuscarJogadorPorId(Id);
             if (Buscar == null)
             {
                 return StatusCode(404, "Usuário não encontrado");
             }
             else
             {
-                Buscar.Idade = Buscar.Nascimento.Year - DateTime.Now.Year;
-                if(DateTime.Now.DayOfYear < Buscar.Nascimento.DayOfYear)
+                int IdadeOficial = Math.Abs(Buscar.Nascimento.Year - DateTime.Now.Year);
+                if (DateTime.Now.DayOfYear < Buscar.Nascimento.DayOfYear)
                 {
-                    Buscar.Idade = Buscar.Idade - 1;
+                    IdadeOficial = IdadeOficial - 1;
                 }
-                return StatusCode(202, Buscar);
+
+                 var objeto = new { Nome = Buscar.Nome,
+                    Nascimento = Buscar.Nascimento,
+                    Posicao = Buscar.Posicao,
+                    Qtdefaltas = Buscar.Qtdefaltas,
+                    QtdecartoesAmarelo = Buscar.QtdecartoesAmarelo,
+                    QtdecartoesVermelho = Buscar.QtdecartoesVermelho,
+                    Qtdegols = Buscar.Qtdegols,
+                    Informacoes = Buscar.Informacoes,
+                    NumeroCamisa = Buscar.NumeroCamisa,
+                    SelecaoId = Buscar.SelecaoId,
+                    Selecao = Buscar.Selecao,
+                    Idade = IdadeOficial,
+                    Foto = Buscar.Foto
+                };
+
+               
+                return StatusCode(202, objeto);
             }
         }
 
         //Controller Mostra um jogador pelo nome do jogador
-        [HttpGet]
+        [HttpGet("BuscarNome/{Nome}")]
         public IActionResult MostraJogadorNome(string Nome)
         {
             var Buscar = repository.BuscarJogadorPorNome(Nome);
@@ -42,13 +62,32 @@ namespace Ws_Tower_WebApi.Controllers
             }
             else
             {
-                Buscar.Idade = Buscar.Nascimento.Year - DateTime.Now.Year;
-                if (DateTime.Now.DayOfYear < Buscar.Nascimento.DayOfYear)
+                var objeto = new
                 {
-                    Buscar.Idade = Buscar.Idade - 1;
-                }
-                return StatusCode(202, Buscar);
+                    Nome = Buscar.Nome,
+                    Nascimento = Buscar.Nascimento,
+                    Posicao = Buscar.Posicao,
+                    Qtdefaltas = Buscar.Qtdefaltas,
+                    QtdecartoesAmarelo = Buscar.QtdecartoesAmarelo,
+                    QtdecartoesVermelho = Buscar.QtdecartoesVermelho,
+                    Qtdegols = Buscar.Qtdegols,
+                    Informacoes = Buscar.Informacoes,
+                    NumeroCamisa = Buscar.NumeroCamisa,
+                    SelecaoId = Buscar.SelecaoId,
+                    Selecao = Buscar.Selecao,
+                    Idade = Math.Abs(Buscar.Nascimento.Year - DateTime.Now.Year),
+                    Foto = Buscar.Foto
+                }; 
+               
+                return StatusCode(202, objeto);
             }
+        }
+
+        //Controller Mostra todos os jogadores
+        [HttpGet]
+        public IActionResult ListarJogadores()
+        {
+            return Ok(repository.ListarJogadores());
         }
     }
 }
