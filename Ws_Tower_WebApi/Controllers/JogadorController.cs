@@ -83,6 +83,21 @@ namespace Ws_Tower_WebApi.Controllers
             }
         }
 
+        //Controller buscar o jogador por uma seleção
+        [HttpGet("BuscarPorSelecao/{Nome}")]
+        public IActionResult BuscarPorSelecao(string Nome)
+        {
+            var buscar = repository.BuscarPorSelecao(Nome);
+            if (buscar == null)
+            {
+                return StatusCode(400, "Nenhum jogador encontrado nessa seleção!!!");
+            }
+            else
+            {
+                return StatusCode(200, buscar);
+            }
+        }
+
         //Controller Mostra todos os jogadores
         [HttpGet]
         public IActionResult ListarJogadores()

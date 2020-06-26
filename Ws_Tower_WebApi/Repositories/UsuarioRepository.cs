@@ -77,5 +77,24 @@ namespace Ws_Tower_WebApi.Repositories
                     return false;
             }
         }
+
+        public Usuario Login(string Nome, string Senha)
+        {
+            using (WsTowerContext context = new WsTowerContext())
+            {
+                return context.Usuario.FirstOrDefault(U => U.Nome == Nome || U.Email == Nome && U.Senha == Senha);
+            }
+        }
+
+        public void AtualizarSenha(Usuario usuario)
+        {
+            using (WsTowerContext context = new WsTowerContext())
+            {
+                Usuario atual = context.Usuario.FirstOrDefault(U => U.Id == usuario.Id);
+                atual.Senha = usuario.Senha;
+                context.Usuario.Update(atual);
+                context.SaveChanges();
+            }
+        }
     }
 }

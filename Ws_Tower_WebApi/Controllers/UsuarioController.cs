@@ -78,5 +78,19 @@ namespace Ws_Tower_WebApi.Controllers
                 return StatusCode(404, "Algun campo não foi preenchido!!!");
             }
         }
+
+        [HttpPut("EsquecirSenha")]
+        public IActionResult AlterarSenha(Usuario usuario)
+        {
+            if (usuario != null)
+            {
+                repository.AtualizarSenha(usuario);
+                return StatusCode(202, "Sua senha foi atualizado com sucesso!!!");
+            }
+            else
+            {
+                return StatusCode(400, "Digite uma senha para atualizar!!!");
+            }
+        }
     }
 }

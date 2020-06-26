@@ -63,7 +63,7 @@ namespace Ws_Tower_WebApi.Repositories
             }
         }
 
-        //Atualizar um jogador pelo id
+        //Atualizar um jogador
         public void AtualizarPorId(Jogador jogadorAtualizado)
         {
             using (WsTowerContext context = new WsTowerContext())
@@ -82,6 +82,14 @@ namespace Ws_Tower_WebApi.Repositories
                 
                 context.Jogador.Update(jogador);
                 context.SaveChanges();
+            }
+        }
+
+        public List<Jogador> BuscarPorSelecao(string Selecao)
+        {
+            using (WsTowerContext context = new WsTowerContext())
+            {
+                return context.Jogador.ToList().FindAll(J => J.Selecao.Nome == Selecao);
             }
         }
     }
