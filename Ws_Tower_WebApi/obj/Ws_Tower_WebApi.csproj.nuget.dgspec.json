@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Nova pasta\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj": {
+    "C:\\Users\\PC\\Desktop\\Nova pasta\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Nova pasta\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj",
         "projectName": "Ws_Tower_WebApi",
-        "projectPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj",
-        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Nova pasta\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\Ws_Tower_WebApi.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Nova pasta\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,7 +59,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.1.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -73,6 +72,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [
@@ -85,7 +88,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

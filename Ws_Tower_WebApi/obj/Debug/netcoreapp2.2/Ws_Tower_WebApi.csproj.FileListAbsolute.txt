@@ -14,3 +14,21 @@ C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcore
 C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\Ws_Tower_WebApi.pdb
 C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.dll
 C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.pdb
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\Ws_Tower_WebApi.deps.json
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\Ws_Tower_WebApi.runtimeconfig.json
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\Ws_Tower_WebApi.runtimeconfig.dev.json
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\Ws_Tower_WebApi.dll
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\bin\Debug\netcoreapp2.2\Ws_Tower_WebApi.pdb
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.RazorAssemblyInfo.cache
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.RazorAssemblyInfo.cs
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.AssemblyInfo.cs
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.dll
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.pdb
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.genruntimeconfig.cache
+C:\Users\PC\Desktop\Nova pasta\Xamarin-Mobile-Grupo-5-\Ws_Tower_WebApi\obj\Debug\netcoreapp2.2\Ws_Tower_WebApi.csproj.CoreCompileInputs.cache
