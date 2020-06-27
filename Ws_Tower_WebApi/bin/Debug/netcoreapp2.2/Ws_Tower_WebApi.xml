@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ws_Tower_WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogadorController.MostraJogador(System.Int32)">
+            <summary>
+            Buscar um jogador pelo ID 
+            </summary>       
+            <response code="202">Retorna um aceito assim retorna o jogador</response>
+            <response code="404">Retornar um erro não caso acha o jogador pelo ID</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogadorController.MostraJogadorNome(System.String)">
+            <summary>
+            Buscar um jogador pelo nome 
+            </summary>       
+            <response code="202">Retorna um aceito assim retorna o jogador</response>
+            <response code="404">Retornar um erro caso não acha o jogador pelo nome</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogadorController.BuscarPorSelecao(System.String)">
+            <summary>
+            Buscar retorna os jogadores de uma seleção 
+            </summary>       
+            <response code="200">Retorna um aceito e uma listar jogadores de uma seleção</response>
+            <response code="400">Retornar um erro não caso acha jogadores pela seleção</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogadorController.ListarJogadores">
+            <summary>
+            retorna uma listar de jogadores
+            </summary>       
+            <response code="200">Retorna um OK e uma listar de jogadores</response>
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogoController.ListarJogos">
+            <summary>
+            Retorna os listar de todos os jogos
+            </summary>       
+            <response code="200">Retorna um ok e o uma listar de todos os jogos</response>
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogoController.ListarComJogadores(System.Int32)">
+            <summary>
+            Retorna os jogo através do ID com os jogadores de cada time
+            </summary>       
+            <response code="200">Retorna um ok e o jogo seleciona com os jogadores de cada time</response>
+            <response code="400">Retornar um erro caso o senha e o Id Estiver nulos</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogoController.ListarPorEstadio(System.String)">
+            <summary>
+            Retorna os jogos de um estadio
+            </summary>       
+            <response code="200">Retorna um ok e o os jogos da daquele estadio</response>
+            <response code="400">Retornar um erro caso não tiver encontrado nenhum jogo no estadio selecionando</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogoController.ListarPorSelecao(System.String)">
+            <summary>
+            Retorna os jogos de uma seleção
+            </summary>       
+            <response code="200">Retorna um ok e o os jogos da seleção selecionada</response>
+            <response code="400">Retornar um erro caso não tiver encontrado com jogo com aquela seleção</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogoController.ListarPorData(System.DateTime)">
+            <summary>
+            Retorna os jogos de uma data especifica
+            </summary>       
+            <response code="200">Retorna um ok e o os jogos da daquele data</response>
+            <response code="400">Retornar um erro caso não tiver encontrado com jogo com aquela data</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.JogoController.BuscarPorId(System.Int32)">
+            <summary>
+            Retorna buscar um jogo pelo ID
+            </summary>       
+            <response code="200">Retorna um ok e o os jogo selecionado pelo ID</response>
+            <response code="400">Retornar um erro caso não tiver encontrado um jogo com aquele ID</response> 
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.LoginController.Logar(Ws_Tower_WebApi.ViewModel.Login)">
+            <summary>
+            Fazer o login no sistema
+            </summary>
+            <response code="200">Retorna um ok assim você logar no sistema</response>
+            <response code="400">Retornar um erro caso o usuário for invalido</response>   
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.SelecaoController.ListarSelecaos">
+            <summary>
+            Listar as seleções do sistema
+            </summary>
+            <response code="200">Retorna um ok é uma listar de seleções</response>
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.UsuarioController.ListarUsuario">
+            <summary>
+            Retorna uma listar de usuários
+            </summary>
+            <response code="200">Retorna um ok e a listar de usuários</response>
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.UsuarioController.AtualizarUsuario(Ws_Tower_WebApi.Domains.Usuario)">
+            <summary>
+            Atualizar um usuário do sistema 
+            </summary>       
+            <response code="202">Retorna um aceito assim atualiza o sistema</response>
+            <response code="400">Retornar um erro caso o usuário estiver nulo</response>  
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.UsuarioController.Cadastro(Ws_Tower_WebApi.Domains.Usuario)">
+            <summary>
+            Cadastro de um usuário no sistema 
+            </summary>       
+            <response code="201">Retorna um criado assim criar um usuário no sistema</response>
+            <response code="404">Retornar um erro caso o algun campo estiver nulo</response>  
+        </member>
+        <member name="M:Ws_Tower_WebApi.Controllers.UsuarioController.AlterarSenha(Ws_Tower_WebApi.Domains.Usuario)">
+            <summary>
+            Cadastro de um usuário no sistema 
+            </summary>       
+            <response code="201">Retorna um aceito assim mudar a senha de um usuário no sistema</response>
+            <response code="400">Retornar um erro caso o senha e o Id Estiver nulos</response>  
+        </member>
+    </members>
+</doc>

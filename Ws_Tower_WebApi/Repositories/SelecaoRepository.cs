@@ -16,5 +16,13 @@ namespace Ws_Tower_WebApi.Repositories
                 return context.Selecao.ToList();
             }
         }
+
+        public List<Selecao> Pontuacao()
+        {
+            using (WsTowerContext context = new WsTowerContext())
+            {
+                return context.Selecao.ToList();
+            }
+        }
     }
 }
