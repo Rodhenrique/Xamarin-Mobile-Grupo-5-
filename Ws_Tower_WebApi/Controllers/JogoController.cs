@@ -62,13 +62,13 @@ namespace Ws_Tower_WebApi.Controllers
         {
             var busca = repository.ListarJogosPorEstadio(NomeEstadio);
 
-            if (busca != null)
+            if (busca.Count == 0)
             {
                 return StatusCode(400, "Nenhum estadio encontrado com esse nome!!!");
             }
             else
             {
-                return StatusCode(400, "Nenhum estadio encontrado com esse nome!!!");
+                return StatusCode(200, busca);
             }
         }
 
@@ -79,13 +79,13 @@ namespace Ws_Tower_WebApi.Controllers
         /// <response code="200">Retorna um ok e o os jogos da seleção selecionada</response>
         /// <response code="400">Retornar um erro caso não tiver encontrado com jogo com aquela seleção</response> 
         [HttpGet("BuscarPorSelecao/{NomeSelecao}")]
-        [ProducesResponseType(StatusCodes.Status202Accepted)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult ListarPorSelecao(string NomeSelecao)
         {
             var busca = repository.BuscarPorSelecao(NomeSelecao);
 
-            if (busca != null)
+            if (busca.Count != 0)
             {
                 return Ok(busca);
             }

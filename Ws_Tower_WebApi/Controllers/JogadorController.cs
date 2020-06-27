@@ -111,7 +111,7 @@ namespace Ws_Tower_WebApi.Controllers
         public IActionResult BuscarPorSelecao(string Nome)
         {
             var buscar = repository.BuscarPorSelecao(Nome);
-            if (buscar == null)
+            if (buscar.Count == 0)
             {
                 return StatusCode(400, "Nenhum jogador encontrado nessa seleção!!!");
             }

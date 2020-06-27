@@ -105,9 +105,9 @@
             <response code="201">Retorna um criado assim criar um usuário no sistema</response>
             <response code="404">Retornar um erro caso o algun campo estiver nulo</response>  
         </member>
-        <member name="M:Ws_Tower_WebApi.Controllers.UsuarioController.AlterarSenha(Ws_Tower_WebApi.Domains.Usuario)">
+        <member name="M:Ws_Tower_WebApi.Controllers.UsuarioController.AlterarSenha(Ws_Tower_WebApi.ViewModel.AlterarSenhaViewModel)">
             <summary>
-            Cadastro de um usuário no sistema 
+            Alterar Senha do usuário através de um ID ou Apelido ou Email
             </summary>       
             <response code="201">Retorna um aceito assim mudar a senha de um usuário no sistema</response>
             <response code="400">Retornar um erro caso o senha e o Id Estiver nulos</response>  

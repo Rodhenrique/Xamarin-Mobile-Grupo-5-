@@ -85,11 +85,12 @@ namespace Ws_Tower_WebApi.Repositories
             }
         }
 
-        public List<Jogador> BuscarPorSelecao(string Selecao)
+        public List<Jogador> BuscarPorSelecao(string NameSelecao)
         {
             using (WsTowerContext context = new WsTowerContext())
             {
-                return context.Jogador.ToList().FindAll(J => J.Selecao.Nome == Selecao);
+                return context.Jogador.Include(J => J.Selecao)
+                    .ToList().FindAll(j => j.Selecao.Nome == NameSelecao);
             }
         }
     }

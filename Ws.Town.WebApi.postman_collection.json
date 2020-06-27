@@ -1,0 +1,427 @@
+{
+	"info": {
+		"_postman_id": "3b874687-1988-41b7-9fa5-a6ebc6124057",
+		"name": "Ws.Town.WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "JogadorController",
+			"item": [
+				{
+					"name": "http://localhost:5000/api/Jogador/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Jogador/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Jogador",
+								"1"
+							]
+						},
+						"description": "Buscar pelo jogador por ID"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Jogador/BuscarNome/Manuel Neuer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Jogador/BuscarNome/Manuel Neuer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Jogador",
+								"BuscarNome",
+								"Manuel Neuer"
+							]
+						},
+						"description": "Buscar um jogador pelo nome"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Jogador/BuscarPorSelecao/Alemanha",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Jogador/BuscarPorSelecao/Alemanha",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Jogador",
+								"BuscarPorSelecao",
+								"Alemanha"
+							]
+						},
+						"description": "Buscar jogaddor por seleção"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Jogador",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/jogo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"jogo"
+							]
+						},
+						"description": "Retorna uma listar de jogadores"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "JogoController",
+			"item": [
+				{
+					"name": "http://localhost:5000/api/Jogador",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/jogo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"jogo"
+							]
+						},
+						"description": "Listar todos os jogos\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Jogo/ListarComJogadores/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Jogo/ListarComJogadores/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Jogo",
+								"ListarComJogadores",
+								"1"
+							]
+						},
+						"description": "Retorna um jogo com todos os jogadores de cada time"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Jogo/BuscarPorEstadio/Arena Corinthians",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Jogo/BuscarPorEstadio/Arena Corinthians",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Jogo",
+								"BuscarPorEstadio",
+								"Arena Corinthians"
+							]
+						},
+						"description": "buscar jogos por estadio\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Jogo/BuscarPorSelecao/Alemanha",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Jogo/BuscarPorSelecao/Alemanha",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Jogo",
+								"BuscarPorSelecao",
+								"Alemanha"
+							]
+						},
+						"description": "buscar por os jogos de uma seleção"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Jogo/ListarData/2020-07-11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Jogo/ListarData/2020-07-11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Jogo",
+								"ListarData",
+								"2020-07-11"
+							]
+						},
+						"description": "Busca um jogo por uma data especifica"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/jogo/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/jogo/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"jogo",
+								"1"
+							]
+						},
+						"description": "Buscar um jogo peloo ID do jogo"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "UsuarioController",
+			"item": [
+				{
+					"name": "http://localhost:5000/api/Usuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario"
+							]
+						},
+						"description": "Listar todos os usuários do sistema\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Usuario",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Id\": 1,\r\n  \"Apelido\": \"Rick\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario"
+							]
+						},
+						"description": "Atualizar um usuário consegui atualizar só uma informação por vez"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Nome\": \"robson\",\r\n  \"Email\": \"marcos@marcos.com\",\r\n  \"Apelido\": \"marcão\",\r\n  \"Foto\": \"\",\r\n  \"Senha\": \"marcoDa17\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario"
+							]
+						},
+						"description": "Cadastrar um usuário"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:5000/api/Usuario/EsquecirSenha",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Nome\": \"henrique@hotmail.com\",\r\n  \"Senha\": \"campeao\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/EsquecirSenha",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"EsquecirSenha"
+							]
+						},
+						"description": "Alterar senha pelo ID,Email ou apelido"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "LoginController",
+			"item": [
+				{
+					"name": "http://localhost:5000/api/Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Email\": \"henrique@hotmail.com\",\r\n  \"Senha\": \"Henrique\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Login"
+							]
+						},
+						"description": "Fazer login"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "SeleçãoController",
+			"item": [
+				{
+					"name": "http://localhost:5000/api/Selecao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Selecao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Selecao"
+							]
+						},
+						"description": "Listar todas as seleções "
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

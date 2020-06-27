@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Ws_Tower_WebApi.Domains;
+using Ws_Tower_WebApi.ViewModel;
 
 namespace Ws_Tower_WebApi.Repositories
 {
@@ -33,10 +34,26 @@ namespace Ws_Tower_WebApi.Repositories
             {
                 Usuario UsuarioAtual = context.Usuario.FirstOrDefault(U => U.Id == UsuarioAtualizado.Id);
 
-                UsuarioAtual.Nome = UsuarioAtualizado.Nome;
-                UsuarioAtual.Email = UsuarioAtualizado.Email;
+                if(UsuarioAtualizado.Apelido == null)               
+                    UsuarioAtual.Apelido = UsuarioAtual.Apelido;
+                else 
                 UsuarioAtual.Apelido = UsuarioAtualizado.Apelido;
+
+                if (UsuarioAtualizado.Nome == null)
+                UsuarioAtual.Nome = UsuarioAtual.Nome;
+                else
+                    UsuarioAtual.Nome = UsuarioAtualizado.Nome;
+
+                if (UsuarioAtualizado.Email == null)
+                    UsuarioAtual.Email = UsuarioAtual.Email;
+                else
+                    UsuarioAtual.Email = UsuarioAtualizado.Email;
+
+                if (UsuarioAtualizado.Foto == null)
+                    UsuarioAtual.Foto = UsuarioAtual.Foto;
+                else
                 UsuarioAtual.Foto = UsuarioAtualizado.Foto;
+
                 context.Usuario.Update(UsuarioAtual);
                 context.SaveChanges();
             }
@@ -86,11 +103,12 @@ namespace Ws_Tower_WebApi.Repositories
             }
         }
 
-        public void AtualizarSenha(Usuario usuario)
+        public void AtualizarSenha(AlterarSenhaViewModel usuario)
         {
             using (WsTowerContext context = new WsTowerContext())
             {
-                Usuario atual = context.Usuario.FirstOrDefault(U => U.Id == usuario.Id);
+                Usuario atual = context.Usuario.FirstOrDefault(U => U.Id == usuario.ID || 
+                U.Nome == usuario.Nome || U.Email == usuario.Nome);
                 atual.Senha = usuario.Senha;
                 context.Usuario.Update(atual);
                 context.SaveChanges();

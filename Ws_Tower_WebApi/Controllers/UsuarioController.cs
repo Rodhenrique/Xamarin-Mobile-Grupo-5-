@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Ws_Tower_WebApi.Domains;
 using Ws_Tower_WebApi.Repositories;
+using Ws_Tower_WebApi.ViewModel;
 
 namespace Ws_Tower_WebApi.Controllers
 {
@@ -100,18 +101,18 @@ namespace Ws_Tower_WebApi.Controllers
         }
         //Mudar senha do usuário 
         /// <summary>
-        /// Cadastro de um usuário no sistema 
+        /// Alterar Senha do usuário através de um ID ou Apelido ou Email
         /// </summary>       
         /// <response code="201">Retorna um aceito assim mudar a senha de um usuário no sistema</response>
         /// <response code="400">Retornar um erro caso o senha e o Id Estiver nulos</response>  
         [HttpPut("EsquecirSenha")]
         [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult AlterarSenha(Usuario usuario)
+        public IActionResult AlterarSenha(AlterarSenhaViewModel user)
         {
-            if (usuario != null)
+            if (user != null)
             {
-                repository.AtualizarSenha(usuario);
+                repository.AtualizarSenha(user);
                 return StatusCode(202, "Sua senha foi atualizado com sucesso!!!");
             }
             else
