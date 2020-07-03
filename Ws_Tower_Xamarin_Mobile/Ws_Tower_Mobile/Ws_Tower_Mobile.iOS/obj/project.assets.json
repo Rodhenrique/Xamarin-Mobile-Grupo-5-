@@ -1022,11 +1022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.iOS\\Ws_Tower_Mobile.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.iOS\\Ws_Tower_Mobile.iOS.csproj",
       "projectName": "Ws_Tower_Mobile.iOS",
-      "projectPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.iOS\\Ws_Tower_Mobile.iOS.csproj",
+      "projectPath": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.iOS\\Ws_Tower_Mobile.iOS.csproj",
       "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.iOS\\obj\\",
+      "outputPath": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1047,8 +1047,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj": {
-              "projectPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj"
+            "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj": {
+              "projectPath": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj"
             }
           }
         }

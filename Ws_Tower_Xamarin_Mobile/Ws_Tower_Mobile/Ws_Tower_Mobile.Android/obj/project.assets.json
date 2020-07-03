@@ -1938,11 +1938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.Android\\Ws_Tower_Mobile.Android.csproj",
+      "projectUniqueName": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.Android\\Ws_Tower_Mobile.Android.csproj",
       "projectName": "Ws_Tower_Mobile.Android",
-      "projectPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.Android\\Ws_Tower_Mobile.Android.csproj",
+      "projectPath": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.Android\\Ws_Tower_Mobile.Android.csproj",
       "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.Android\\obj\\",
+      "outputPath": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1963,8 +1963,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj": {
-              "projectPath": "C:\\Users\\henri\\Desktop\\Xamarin-Mobile-Grupo-5-\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj"
+            "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj": {
+              "projectPath": "C:\\Users\\henri\\Desktop\\clone\\Ws_Tower_Xamarin_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile\\Ws_Tower_Mobile.csproj"
             }
           }
         }
