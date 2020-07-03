@@ -4,12 +4,48 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Ws_Tower_Mobile.Views.FrmCadastro">
+             xmlns:local="clr-namespace:Ws_Tower_Mobile.Models"
+             x:Class="Ws_Tower_Mobile.Views.FrmCadastro"
+             Title="Pagina de Cadastro">
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <AbsoluteLayout Margin="5,0,5,5">
+            
+            <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Center" Margin="30,0,30,0" >
+                <Frame   Margin="10"
+                   BorderColor="Black"
+                   CornerRadius="100"
+                   HeightRequest="96"
+                   WidthRequest="96"
+                   IsClippedToBounds="True"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   >
+                    <Image
+                        Source="baseline_person_black_48dp.png"
+                        HeightRequest="96"
+                        WidthRequest ="96"/>
+                </Frame>
+
+                <Entry x:Name="emailEntry" Placeholder="Email" ReturnType="Next" Keyboard="Email" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
+                    <Entry.Behaviors>
+                        <local:EmailValidationBehavior></local:EmailValidationBehavior>
+                    </Entry.Behaviors>
+                </Entry>
+                <Entry x:Name="userNameEntry" ReturnType="Next" MaxLength="10" Placeholder="Nome" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" Keyboard="Text" />
+                <Entry x:Name="passwordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Senha" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Entry x:Name="confirmpasswordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Confirme a senha" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Label x:Name="warningLabel" Text="" IsVisible="False" TextColor="Blue" FontSize="15" BackgroundColor="Transparent" FlexLayout.AlignSelf="End"/>
+                <Entry x:Name="phoneEntry" ReturnType="Done" MaxLength="10" Keyboard="Telephone" Placeholder="Numero de telefone" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
+                    <Entry.Behaviors>
+                        <local:NumberValidationBehavior></local:NumberValidationBehavior>
+                    </Entry.Behaviors>
+                </Entry>
+                <Label x:Name="phoneWarLabel" Text="" IsVisible="False" TextColor="Blue" FontSize="15" BackgroundColor="Transparent" FlexLayout.AlignSelf="End"/>
+                <Button x:Name="signUp" Clicked="SignupValidation_ButtonClicked" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#00b33c"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Cadastre-se"/>
+
+                <Button TextColor="{StaticResource textColor}" BackgroundColor="Transparent" Clicked="login_ClickedEvent" Text="Login" FontSize="13" HorizontalOptions="CenterAndExpand" />
+            </FlexLayout>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Ws_Tower_Mobile.Views.FrmSplash">
+             x:Class="Ws_Tower_Mobile.Views.FrmSplash" Title="Splash Screen">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Spacing="40" VerticalOptions="CenterAndExpand" Margin="0,80,0,0">
@@ -12,7 +12,7 @@
                 <Image x:Name="ImagemLogo" HorizontalOptions="CenterAndExpand" WidthRequest="220" Source="app_logo.png"/>
 
                 <Label FontSize="20"
-                       TextColor="#9E9E9E" 
+                       TextColor="{StaticResource textColor}" 
                        Text="Campeonato mundial FIFA 2020" 
                        HorizontalOptions="CenterAndExpand"/>
             </StackLayout>

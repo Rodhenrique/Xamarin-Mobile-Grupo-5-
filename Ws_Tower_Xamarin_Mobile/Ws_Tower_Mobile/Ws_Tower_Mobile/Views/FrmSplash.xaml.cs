@@ -16,13 +16,14 @@ namespace Ws_Tower_Mobile.Views
         {
             InitializeComponent();
             Animation();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         public async Task Animation()
         {
             ImagemLogo.Opacity = 0;
             await ImagemLogo.FadeTo(1, 3000);
-            Application.Current.MainPage = new FrmLogin();
+            App.Current.MainPage = new NavigationPage(new FrmLogin());
         }
     }
 }

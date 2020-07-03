@@ -10,7 +10,6 @@ namespace Ws_Tower_Mobile
         public App()
         {
             InitializeComponent();
-
             MainPage = new FrmSplash();
         }
 

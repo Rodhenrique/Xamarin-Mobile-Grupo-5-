@@ -6,6 +6,11 @@
              mc:Ignorable="d"
              x:Class="Ws_Tower_Mobile.App">
     <Application.Resources>
-
+        <Color x:Key="textColor">#3B3B3B</Color>
+        <Color x:Key="red">#D91136</Color>
+        <Color x:Key="blue">#048ABF</Color>
+        <Color x:Key="green">#03A65A</Color>
+        <Color x:Key="yellow">#F28705</Color>
+        <Color x:Key="gray">#9E9E9E</Color>
     </Application.Resources>
 </Application>
