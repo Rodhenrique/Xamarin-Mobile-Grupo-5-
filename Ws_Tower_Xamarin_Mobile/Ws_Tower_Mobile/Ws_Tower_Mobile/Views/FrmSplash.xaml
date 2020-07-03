@@ -7,9 +7,27 @@
              x:Class="Ws_Tower_Mobile.Views.FrmSplash">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Spacing="40" VerticalOptions="CenterAndExpand" Margin="0,80,0,0">
+                
+                <Image x:Name="ImagemLogo" HorizontalOptions="CenterAndExpand" WidthRequest="220" Source="app_logo.png"/>
+
+                <Label FontSize="20"
+                       TextColor="#9E9E9E" 
+                       Text="Campeonato mundial FIFA 2020" 
+                       HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+                <StackLayout Spacing="40"  VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <StackLayout VerticalOptions="Center">
+                        <Label HorizontalOptions="Center" FontSize="15" Text="Realização"></Label>
+                        <Image Source="fifa_logo.png" WidthRequest="150"/>
+                    </StackLayout>
+
+                    <StackLayout VerticalOptions="Center">
+                        <Label HorizontalOptions="Center" FontSize="15" Text="Apoio"></Label>
+                        <Image Source="WS_Towers.png" WidthRequest="150"/>
+                    </StackLayout>
+                </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

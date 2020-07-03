@@ -1,0 +1,16 @@
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\bin\Debug\netstandard2.0\Ws_Tower_Mobile.deps.json
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\bin\Debug\netstandard2.0\Ws_Tower_Mobile.dll
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\bin\Debug\netstandard2.0\ref\Ws_Tower_Mobile.dll
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\bin\Debug\netstandard2.0\Ws_Tower_Mobile.pdb
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Ws_Tower_Mobile.csprojAssemblyReference.cache
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Views\Frm Principal.xaml.g.cs
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Views\FrmCadastro.xaml.g.cs
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Views\FrmLogin.xaml.g.cs
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Views\FrmSplash.xaml.g.cs
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Ws_Tower_Mobile.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Ws_Tower_Mobile.AssemblyInfo.cs
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Ws_Tower_Mobile.dll
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\ref\Ws_Tower_Mobile.dll
+C:\Users\henri\Desktop\Xamarin-Mobile-Grupo-5-\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Ws_Tower_Mobile.pdb

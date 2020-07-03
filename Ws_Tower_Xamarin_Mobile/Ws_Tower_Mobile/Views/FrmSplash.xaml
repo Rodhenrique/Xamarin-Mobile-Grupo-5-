@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Ws_Tower_Mobile.Views.FrmSplash">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Spacing="10" HorizontalOptions="CenterAndExpand">
+                <Image Source="app_logo.png"/>
+
+                <Label Text="Campeonato mundial FIFA 2020"></Label>
+
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Realização"></Label>
+                        <Image Source="fifa-logo.png"/>
+                    </StackLayout>
+
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Apoio"></Label>
+                        <Image Source="WS Towers.png"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
