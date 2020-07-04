@@ -46,3 +46,5 @@ C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mo
 C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\ref\Ws_Tower_Mobile.dll
 C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Ws_Tower_Mobile.pdb
 C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Views\FrmCadastro.xaml.g.cs
+C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Views\Details.xaml.g.cs
+C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile\obj\Debug\netstandard2.0\Views\Master.xaml.g.cs

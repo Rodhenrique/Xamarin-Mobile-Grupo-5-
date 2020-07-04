@@ -1448,3 +1448,4 @@ C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mo
 C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile.Android\obj\Debug\90\res\drawable\baseline_person_black_48dp.png
+C:\Users\henri\Desktop\clone\Ws_Tower_Xamarin_Mobile\Ws_Tower_Mobile\Ws_Tower_Mobile.Android\obj\Debug\90\res\drawable\baseline_menu_white_48dp.png

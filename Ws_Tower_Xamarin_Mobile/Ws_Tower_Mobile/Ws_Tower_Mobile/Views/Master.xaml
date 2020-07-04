@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Principal"
+             IconImageSource="baseline_menu_white_48dp.pngrDetailPage"
+             BackgroundColor="{StaticResource gray}"
+             x:Class="Ws_Tower_Mobile.Views.Master">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+
+            <StackLayout HeightRequest="160" BackgroundColor="{StaticResource blue}">
+                <StackLayout Margin="30,0,0,0" Spacing="0" VerticalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Frame
+                            BorderColor="Black"
+                            CornerRadius="50"
+                            HeightRequest="50"
+                            WidthRequest="50"
+                            IsClippedToBounds="True">
+                            <Label HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="Usuário" FontSize="12" TextColor="Black"/>
+                        </Frame>
+                        <StackLayout Margin="20,0,0,0" VerticalOptions="CenterAndExpand">
+                            <Label Text="Nome" FontSize="22" TextColor="White"/>
+                            <Label Text="Email" FontSize="22" TextColor="White"/>
+                        </StackLayout>
+                    </StackLayout>
+                    
+                    <StackLayout Margin="20,0,0,0">
+                        <Label Text="Sair" FontSize="22" TextColor="White"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout  HeightRequest="60" BackgroundColor="{StaticResource red}">
+                <Label Margin="10" Text="Inicio" FontSize="22" TextColor="White"/>
+            </StackLayout>
+            <StackLayout HeightRequest="60" BackgroundColor="{StaticResource green}">
+                <Label  Margin="10" Text="Seleções" FontSize="22" TextColor="White"/>
+
+            </StackLayout>
+            <StackLayout HeightRequest="60" BackgroundColor="{StaticResource yellow}">
+                <Label Margin="10" Text="Melhor Uniforme" FontSize="22" TextColor="White"/>
+
+            </StackLayout>
+
+            <StackLayout Margin="15,0,15,20" VerticalOptions="EndAndExpand">
+                <Label Text="Sobre o App" FontSize="22" TextColor="{StaticResource yellow}"/>
+                <BoxView Color="{StaticResource yellow}"
+                 HeightRequest="2"  
+                 HorizontalOptions="Fill" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

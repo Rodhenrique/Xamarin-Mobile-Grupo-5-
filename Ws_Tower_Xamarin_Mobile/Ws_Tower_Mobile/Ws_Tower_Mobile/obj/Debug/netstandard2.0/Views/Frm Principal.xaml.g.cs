@@ -14,7 +14,7 @@ namespace Ws_Tower_Mobile.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Frm Principal.xaml")]
-    public partial class Frm_Principal : global::Xamarin.Forms.ContentPage {
+    public partial class Frm_Principal : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
